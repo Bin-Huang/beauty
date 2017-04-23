@@ -1,6 +1,6 @@
 import React from "react";
 import { View } from "react-native";
-import { Container, Content, Footer, FooterTab, Left, Body, Right, Button, Icon, Title } from "native-base";
+import { StyleProvider, Container, Content, Footer, FooterTab, Left, Body, Right, Button, Icon, Title } from "native-base";
 import ChatScreen from "./chat";
 import ChildPage from "./child";
 import PersonScreen from "./person";
@@ -44,19 +44,20 @@ export default class App extends React.Component{
                 MyContent = HomeScreen;
             }
             return (
+                <StyleProvider style={getTheme(commonColor)}>
                 <Container>
                     <MyContent set={this.set} />
                     <Footer>
-                        <FooterTab>
-                            <Button active={this.state.current === "home" ? true : false}
+                        <FooterTab  >
+                            <Button  active={this.state.current === "home" ? true : false}
                             onPress={() => {this.setState({current: "home"}); }}>
                                 <Icon name="paper" />
                             </Button>
-                            <Button active={this.state.current === "camera" ? true : false}
+                            <Button  active={this.state.current === "camera" ? true : false}
                             onPress={() => {this.setState({current: "camera"}); }}>
                                 <Icon name="camera" />
                             </Button>
-                            <Button active={this.state.current === "chat" ? true : false}
+                            <Button  active={this.state.current === "chat" ? true : false}
                             onPress={() => {this.setState({current: "chat"}); }}>
                                 <Icon name="chatboxes" />
                             </Button>
@@ -67,6 +68,7 @@ export default class App extends React.Component{
                         </FooterTab>
                     </Footer>
                 </Container>
+                </StyleProvider>
             );
         }
     }

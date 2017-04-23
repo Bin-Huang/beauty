@@ -1,6 +1,9 @@
 import React from "react";
 import { Container, Header, Content, Footer, FooterTab, Left, Body, Right, Button, Icon, Title } from "native-base";
 import { TouchableHighlight } from "react-native";
+
+// const themeColor = "rgb(220,33,112)";
+
 // props: {
 //     title: string,
 //     children: object(Element),
