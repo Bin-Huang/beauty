@@ -55,6 +55,47 @@ const user = {
             },
         ],
     },
+    5: {
+        name: "马老板",
+        avatar: require("../img/mlb.jpg"),
+        history: [
+            {
+                _id: 1,
+                text: "hello",
+                createdAt: new Date(Date.UTC(2017, 4, 22, 21, 20, 0)),
+                user: {
+                    _id: 5,
+                    name: "马老板",
+                    avatar: "http://tva1.sinaimg.cn/crop.0.0.180.180.180/7fde8b93jw1e8qgp5bmzyj2050050aa8.jpg",
+                },
+                // image: "https://facebook.github.io/react/img/logo_og.png",
+            },
+        ],
+    },
+    6: {
+        name: "宝宝",
+        avatar: require("../img/bb.jpg"),
+    },
+    7: {
+        name: "未命名用户",
+        avatar: require("../img/mg.jpg"),
+    },
+    8: {
+        name: "用户未命名",
+        avatar: require("../img/mg2.jpg"),
+    },
+    9: {
+        name: "未命名用户9",
+        avatar: require("../img/mg3.jpg"),
+    },
+    10: {
+        name: "未命名用户3",
+        avatar: require("../img/mg4.jpg"),
+    },
+    11: {
+        name: "未命名用户2",
+        avatar: require("../img/mg5.jpg"),
+    },
 };
 
 export default class ChatScreen extends React.Component {
@@ -76,6 +117,13 @@ export default class ChatScreen extends React.Component {
                     <ChatItem id="2" handlePress={this.handlePress}/>
                     <ChatItem id="3" handlePress={this.handlePress}/>
                     <ChatItem id="4" handlePress={this.handlePress}/>
+                    <ChatItem id="5" handlePress={this.handlePress}/>
+                    <ChatItem id="6" handlePress={this.handlePress}/>
+                    <ChatItem id="7" handlePress={this.handlePress}/>
+                    <ChatItem id="8" handlePress={this.handlePress}/>
+                    <ChatItem id="9" handlePress={this.handlePress}/>
+                    <ChatItem id="10" handlePress={this.handlePress}/>
+                    <ChatItem id="11" handlePress={this.handlePress}/>
                 </Content>
             </Container>
         )

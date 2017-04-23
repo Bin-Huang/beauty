@@ -4,6 +4,7 @@ import { Container, Content, Footer, FooterTab, Left, Body, Right, Button, Icon,
 import ChatScreen from "./chat";
 import ChildPage from "./child";
 import PersonScreen from "./person";
+import HomeScreen from "./home";
 
 export default class App extends React.Component{
     constructor(props) {
@@ -39,6 +40,8 @@ export default class App extends React.Component{
                 MyContent = ChatScreen;
             } else if (this.state.current === "person") {
                 MyContent = PersonScreen;
+            } else if (this.state.current === "home") {
+                MyContent = HomeScreen;
             }
             return (
                 <Container>
