@@ -44,7 +44,6 @@ export default class App extends React.Component{
                 MyContent = HomeScreen;
             }
             return (
-                <StyleProvider style={getTheme(commonColor)}>
                 <Container>
                     <MyContent set={this.set} />
                     <Footer>
@@ -68,7 +67,6 @@ export default class App extends React.Component{
                         </FooterTab>
                     </Footer>
                 </Container>
-                </StyleProvider>
             );
         }
     }
