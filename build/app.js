@@ -54,18 +54,18 @@ export default class App extends React.Component{
                         </Swiper>
                     </Content>
                     <View>
-                        <Footer>
+                        <Footer >
                             <FooterTab>
-                                <Button onPress={() => {
+                                <Button active onPress={() => {
                                     this.go(0);
                                     }}><Icon name="paper" /></Button>
-                                <Button onPress={() => {
+                                <Button active onPress={() => {
                                     this.go(1);
                                     }}><Icon name="camera" /></Button>
-                                <Button onPress={() => {
+                                <Button active onPress={() => {
                                     this.go(2);
                                     }}><Icon name="chatboxes" /></Button>
-                                <Button onPress={() => {
+                                <Button active onPress={() => {
                                     this.go(3);
                                     }}><Icon name="person" /></Button>
                             </FooterTab>
