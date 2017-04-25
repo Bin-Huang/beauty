@@ -5,7 +5,13 @@ import ChatScreen from "./chat";
 import ChildPage from "./child";
 import PersonScreen from "./person";
 import HomeScreen from "./home";
+import CameraScreen from "./camera";
 import Swiper from "react-native-swiper";
+
+//TODO: 修改 抽屉 Drawer 组件的宽度，看能不能当子页面使用
+//TODO: 直接使用 Tabs 组件来重建 Index 页面？
+//TODO: 使用 ref 直接调用组件，是否会提高性能
+//TODO: 使用 Picker 在设置中添加一个 付款方式
 
 let currentIndex = 0;
 
@@ -46,9 +52,7 @@ export default class App extends React.Component{
                     <Content>
                         <Swiper bounces={true } showsButtons={false} index={currentIndex} scrollEnabled={false} showsPagination={false} loop={true} ref={viewPager => { this.viewPager = viewPager; }} >
                             <HomeScreen set={this.set} />
-                            <View>
-                                <Button onPress={this.go} style={{backgroundColor: "red"}} />
-                            </View>
+                            <CameraScreen set={this.set} />
                             <ChatScreen set={this.set}/>
                             <PersonScreen set={this.set}/>
                         </Swiper>

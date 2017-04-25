@@ -21,7 +21,7 @@ export default class PersonScreen extends Component {
                     <Text>用户</Text>
                 </ListItem>  
                 <ListItem onPress={() => {this.handlePress("用户设置", <UserScreen />)}}>
-                    <Thumbnail square size={80} source={require('../img/me.jpg')} />
+                    <Thumbnail square size={80} source={require("../img/me.jpg")} />
                     <Body>
                         <Text>  测试用户 1</Text>
                         <Text note>  A center aspect.</Text>

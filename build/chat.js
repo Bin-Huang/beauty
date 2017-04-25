@@ -167,6 +167,24 @@ class ChatBox extends React.Component {
         super(props);
         this.state = { messages: user[this.props.id].history };
         this.onSend = this.onSend.bind(this);
+        this.sendImg = this.sendImg.bind(this);
+    }
+    sendImg() {
+        let mes = {
+            _id: Math.random(),
+            createdAt: new Date(),
+            user: {
+                _id: 1,
+                name: "我",
+            },
+            image: "https://img.alicdn.com/bao/uploaded/i4/TB1elHiPVXXXXacXpXXXXXXXXXX_!!0-item_pic.jpg_430x430q90.jpg",
+        };
+        mes = [ mes ];
+        this.setState((previousState) => {
+            return {
+                messages: GiftedChat.append(previousState.messages, mes),
+            };
+        });
     }
     onSend(messages = []) {
         this.setState((previousState) => {
@@ -178,7 +196,7 @@ class ChatBox extends React.Component {
     }
     render() {
         return (
-            <GiftedChat messages={this.state.messages} onSend={this.onSend} user={{
+            <GiftedChat onPressActionButton={this.sendImg}  messages={this.state.messages} onSend={this.onSend} user={{
                  _id: 1,
                  name: "我",
             }}
