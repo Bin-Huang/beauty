@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text } from "react-native";
-import { StyleProvider, Container, Tab, Tabs, Content, Footer, FooterTab, Left, Body, Right, Button, Icon, Title } from "native-base";
+import { StyleProvider,Spinner, Container, Tab, Tabs, Content, Footer, FooterTab, Left, Body, Right, Button, Icon, Title } from "native-base";
 import ChatScreen from "./chat";
 import ChildPage from "./child";
 import PersonScreen from "./person";
@@ -22,6 +22,7 @@ export default class App extends React.Component{
             route: "index",
             more: <View />,
             title: "",
+            wait: true,
         };
         this.set = this.set.bind(this);
         this.back = this.back.bind(this);
@@ -33,6 +34,7 @@ export default class App extends React.Component{
     back() {
         this.setState({
             route: "index",
+            wait: true
         });
     }
     go(index) {
@@ -46,6 +48,32 @@ export default class App extends React.Component{
                     {this.state.more}
                 </ChildPage>
             );
+        } else if (this.state.wait) {
+            setTimeout(() => {
+                this.setState({wait: false});
+            }, 5);
+            return (
+                <Container>
+                    <Content>
+                        {/*<Spinner />
+                        <Spinner color='red' />
+                        <Spinner color='green' />*/}
+                        <Spinner color='blue' />
+                    </Content>
+                    <Footer >
+                        <FooterTab>
+                            <Button active onPress={() => {
+                                }}><Icon name="paper" /></Button>
+                            <Button active onPress={() => {
+                                }}><Icon name="camera" /></Button>
+                            <Button active onPress={() => {
+                                }}><Icon name="chatboxes" /></Button>
+                            <Button active onPress={() => {
+                                }}><Icon name="person" /></Button>
+                        </FooterTab>
+                    </Footer>
+                </Container>
+            )
         } else {
             return (
                 <Container>
@@ -57,7 +85,6 @@ export default class App extends React.Component{
                             <PersonScreen set={this.set}/>
                         </Swiper>
                     </Content>
-                    <View>
                         <Footer >
                             <FooterTab>
                                 <Button active onPress={() => {
@@ -74,7 +101,6 @@ export default class App extends React.Component{
                                     }}><Icon name="person" /></Button>
                             </FooterTab>
                         </Footer>
-                    </View>
                 </Container>
             )
         }
