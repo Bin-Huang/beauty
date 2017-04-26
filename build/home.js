@@ -1,6 +1,6 @@
 import React from "react";
 import { Image } from 'react-native';
-import { Container, Icon, View, DeckSwiper, Card, CardItem, Thumbnail, Text, Left, Body } from 'native-base';
+import { Container, Icon, View, DeckSwiper, Card, CardItem, List, ListItem, Thumbnail, Text, Left, Body } from 'native-base';
 import ChildPage from "./child";
 
 const cards = [
@@ -97,7 +97,9 @@ export default class HomeScreen extends React.Component {
                                 </Card>
                             }
                         />
+
                     </View>
+
                 </Container>
             );
         }

@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Text } from "react-native";
-import { StyleProvider, Container, Content, Footer, FooterTab, Left, Body, Right, Button, Icon, Title } from "native-base";
+import { StyleProvider, Container, Tab, Tabs, Content, Footer, FooterTab, Left, Body, Right, Button, Icon, Title } from "native-base";
 import ChatScreen from "./chat";
 import ChildPage from "./child";
 import PersonScreen from "./person";
