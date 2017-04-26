@@ -1,6 +1,6 @@
 import React from "react";
 import { GiftedChat } from "react-native-gifted-chat";
-import { Container, Content,Text, Thumbnail, ListItem, Footer, FooterTab, Left, Body, Right, Button, Icon, Title } from "native-base";
+import { Container, Toast, Content,Text, Thumbnail, ListItem, Footer, FooterTab, Left, Body, Right, Button, Icon, Title } from "native-base";
 import { ChildPage } from "./child";
 
 const user = {
@@ -235,13 +235,53 @@ class ChatBox extends React.Component {
             };
         });
         user[this.props.id].history = GiftedChat.append(this.state.messages, messages);
+        if (this.props.id == 2) {
+            let newMes = {
+                _id: user[this.props.id].history.length,
+                text: "哎呦不错哦~",
+                createdAt: new Date(),
+                user: {
+                    _id: 2,
+                    name: "小公举",
+                    avatar: "http://tva3.sinaimg.cn/crop.0.0.750.750.180/6e48db9ejw8fbx2jwlc5yj20ku0kuq3m.jpg",
+                },
+            };
+            setTimeout(() => {
+                this.setState((previousState) => {
+                    return {
+                        messages: GiftedChat.append(previousState.messages, newMes),
+                    };
+                });
+                user[this.props.id].history = GiftedChat.append(this.state.messages, newMes);
+            }, 1000);
+        }
+        if (this.props.id == 3) {
+            let newMes = {
+                _id: user[this.props.id].history.length,
+                text: "瞎了狗眼",
+                createdAt: new Date(),
+                user: {
+                    _id: 3,
+                    name: "大头死变态",
+                    avatar: "http://tva4.sinaimg.cn/crop.0.0.664.664.180/70140c81jw8f3fpp7z316j20ig0igwfs.jpg",
+                },
+            };
+            setTimeout(() => {
+                this.setState((previousState) => {
+                    return {
+                        messages: GiftedChat.append(previousState.messages, newMes),
+                    };
+                });
+                user[this.props.id].history = GiftedChat.append(this.state.messages, newMes);
+            }, 1000);
+        }
     }
     render() {
         return (
             <GiftedChat onPressActionButton={this.sendImg}  messages={this.state.messages} onSend={this.onSend} user={{
                  _id: 1,
                  name: "我",
-            }}
+            }} 
             />
         );
     }

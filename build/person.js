@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Text, TouchableHighlight } from "react-native";
-import { Container,Thumbnail, Switch, Button, Content, Card, CardItem, ListItem, Left, Right, Body, Icon, Form, Item, Input,Label} from "native-base";
+import { Container,Thumbnail, List, Toast, Switch, Button, Content, Card, CardItem, ListItem, Left, Right, Body, Icon, Form, Item, Input,Label} from "native-base";
 
 export default class PersonScreen extends Component {
     constructor(props) {
@@ -31,7 +31,7 @@ export default class PersonScreen extends Component {
                 <ListItem itemDivider>
                     <Text>搭配</Text>
                 </ListItem>  
-                <ListItem icon>
+                <ListItem icon onPress={() => {this.handlePress("购物车", <GouScreen />)}}>
                     <Left>
                         <Icon name="cart" />
                     </Left>
@@ -43,7 +43,7 @@ export default class PersonScreen extends Component {
                         <Icon name="arrow-forward" />
                     </Right>
                 </ListItem>
-                <ListItem icon>
+                <ListItem icon onPress={() => {this.handlePress("收藏", <ShouScreen />)}}>
                     <Left>
                         <Icon name="star-half" />
                     </Left>
@@ -220,6 +220,114 @@ class DevScreen extends Component {
                           </Body>
                         </CardItem>
                     </Card>
+                </Content>
+            </Container>
+        );
+    }
+}
+
+class ShouScreen extends Component {
+    render() {
+        return (
+            <Container>
+                <Content>
+                    <List>
+                        <ListItem onPress={() => {
+                            Toast.show({
+                                text: "无法连接服务器，因为还没有服务器",
+                                position: "top",
+                                buttonText: "OK"
+                            });
+                            }}>
+                            <Thumbnail square size={80} source={require('../img/dp5.jpg')} />
+                            <Body>
+                                <Text>  春天的单品推荐</Text>
+                                <Text note>  极简，不费脑，穿上就走</Text>
+                            </Body>
+                        </ListItem>
+                    </List>
+                    <List>
+                        <ListItem onPress={() => {
+                            Toast.show({
+                                text: "无法连接服务器，因为还没有服务器",
+                                position: "top",
+                                buttonText: "OK"
+                            });
+                            }}>
+                            <Thumbnail square size={80} source={require('../img/dp4.jpg')} />
+                            <Body>
+                                <Text>  夏天的单品推荐</Text>
+                                <Text note>  极简，不费脑，穿上就走</Text>
+                            </Body>
+                        </ListItem>
+                    </List>
+                </Content>
+            </Container>
+        );
+    }
+}
+
+class GouScreen extends Component {
+    render() {
+        return (
+            <Container>
+                <Content>
+                    <List>
+                        <ListItem onPress={() => {
+                            Toast.show({
+                                text: "无法连接服务器，因为还没有服务器",
+                                position: "top",
+                                buttonText: "OK"
+                            });
+                            }}>
+                            <Thumbnail square size={80} source={require('../img/dp5.jpg')} />
+                            <Body>
+                                <Text>  内套维多利亚风格蕾丝衫</Text>
+                                <Text note>  也是一套甜x酷，femininey的搭配。</Text>
+                            </Body>
+                        </ListItem>
+                    </List>
+                    <List>
+                        <ListItem onPress={() => {
+                            Toast.show({
+                                text: "无法连接服务器，因为还没有服务器",
+                                position: "top",
+                                buttonText: "OK"
+                            });
+                            }}>
+                            <Thumbnail square size={80} source={require('../img/dp2.jpg')} />
+                            <Body>
+                                <Text>  外搭长款针织开衫</Text>
+                                <Text note>  整体颜色都比较冷调</Text>
+                            </Body>
+                        </ListItem>
+                        <ListItem onPress={() => {
+                            Toast.show({
+                                text: "无法连接服务器，因为还没有服务器",
+                                position: "top",
+                                buttonText: "OK"
+                            });
+                            }}>
+                            <Thumbnail square size={80} source={require('../img/dp1.jpg')} />
+                            <Body>
+                                <Text>  小樱桃</Text>
+                                <Text note>  可以驾驭长裙的姑娘不要错过</Text>
+                            </Body>
+                        </ListItem>
+                        <ListItem onPress={() => {
+                            Toast.show({
+                                text: "无法连接服务器，因为还没有服务器",
+                                position: "top",
+                                buttonText: "OK"
+                            });
+                            }}>
+                            <Thumbnail square size={80} source={require('../img/dp3.jpg')} />
+                            <Body>
+                                <Text>  水墨色长款针织开衫</Text>
+                                <Text note>  格格的小心机</Text>
+                            </Body>
+                        </ListItem>
+                    </List>
                 </Content>
             </Container>
         );
