@@ -9,6 +9,46 @@ const user = {
         avatar: require("../img/xgj.jpg"),
         history: [
             {
+                _id: 5,
+                text: "略~不告诉你",
+                createdAt: new Date(),
+                user: {
+                    _id: 1,
+                    name: "我",
+                    // avatar: "http://tva3.sinaimg.cn/crop.0.0.750.750.180/6e48db9ejw8fbx2jwlc5yj20ku0kuq3m.jpg",
+                },
+            },      
+            {
+                _id: 4,
+                text: "什么App这么神奇？？",
+                createdAt: new Date(),
+                user: {
+                    _id: 2,
+                    name: "小公举",
+                    avatar: "http://tva3.sinaimg.cn/crop.0.0.750.750.180/6e48db9ejw8fbx2jwlc5yj20ku0kuq3m.jpg",
+                },
+            },
+            {
+                _id: 3,
+                text: "用App试衣服呀",
+                createdAt: new Date(),
+                user: {
+                    _id: 1,
+                    name: "我",
+                    // avatar: "http://tva3.sinaimg.cn/crop.0.0.750.750.180/6e48db9ejw8fbx2jwlc5yj20ku0kuq3m.jpg",
+                },
+            },      
+            {
+                _id: 2,
+                text: "在干嘛",
+                createdAt: new Date(),
+                user: {
+                    _id: 2,
+                    name: "小公举",
+                    avatar: "http://tva3.sinaimg.cn/crop.0.0.750.750.180/6e48db9ejw8fbx2jwlc5yj20ku0kuq3m.jpg",
+                },
+            },           
+            {
                 _id: 1,
                 text: "hello",
                 createdAt: new Date(Date.UTC(2017, 4, 22, 21, 20, 0)),
@@ -17,8 +57,10 @@ const user = {
                     name: "小公举",
                     avatar: "http://tva3.sinaimg.cn/crop.0.0.750.750.180/6e48db9ejw8fbx2jwlc5yj20ku0kuq3m.jpg",
                 },
-                // image: "https://facebook.github.io/react/img/logo_og.png",
             },
+
+
+
         ],
     },
     3: {
