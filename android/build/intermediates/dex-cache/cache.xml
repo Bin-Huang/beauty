@@ -2,172 +2,172 @@
 <items version="2" >
 
     <item
-        jar="D:\W\beauty\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
-        <dex dex="D:\W\beauty\android\app\build\intermediates\pre-dexed\debug\classes-e7289fc52451948461ec89707e7962d4ea0577d6.jar" />
-    </item>
-    <item
-        jar="D:\W\beauty\android\app\build\intermediates\exploded-aar\org.webkit\android-jsc\r174650\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="12b885b3ed1fc74a51f671ad40867aa91271843d">
-        <dex dex="D:\W\beauty\android\app\build\intermediates\pre-dexed\debug\classes-6f6dddcce179bfc2c5fa5f4457abb9e773425d2c.jar" />
-    </item>
-    <item
-        jar="D:\W\beauty\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
-        <dex dex="D:\W\beauty\android\app\build\intermediates\pre-dexed\debug\classes-a845bfd28a7f6c414fb22078b87097e7b745bd47.jar" />
-    </item>
-    <item
-        jar="D:\W\beauty\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
-        <dex dex="D:\W\beauty\android\app\build\intermediates\pre-dexed\debug\classes-5a1f65810b639eaa0f416c2b9fbbc40384fe4010.jar" />
-    </item>
-    <item
-        jar="C:\Users\ben\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="D:\W\beauty\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0-3ad1a6630b898b372369369d79e9d3384427a3e5.jar" />
-    </item>
-    <item
-        jar="D:\W\beauty\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
-        <dex dex="D:\W\beauty\android\app\build\intermediates\pre-dexed\debug\classes-f916132aa658ddb01e9baca7c1988134209fd347.jar" />
-    </item>
-    <item
-        jar="C:\Users\ben\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
-        <dex dex="D:\W\beauty\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0-fe6ce25f79c2ed1157a57e2015e359abd6143e2d.jar" />
-    </item>
-    <item
-        jar="D:\W\beauty\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="D:\W\beauty\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0-bc23bfbca10f66b162a2662f2ba92daaffb31b43.jar" />
-    </item>
-    <item
-        jar="C:\Users\ben\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
-        <dex dex="D:\W\beauty\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0-3b47b033358091e39213bec0ae3e38d8ae0c1c9c.jar" />
-    </item>
-    <item
-        jar="C:\Users\ben\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="6975da39a7040257bd51d21a231b76c915872d38">
-        <dex dex="D:\W\beauty\android\app\build\intermediates\pre-dexed\debug\javax.inject-1-6e13c3cf099c7291a915b5ff54b269f3e71af2a7.jar" />
-    </item>
-    <item
-        jar="C:\Users\ben\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
-        <dex dex="D:\W\beauty\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0-9cf2bc20ab9136c284974a4e907b2e1e222e0c2d.jar" />
-    </item>
-    <item
-        jar="D:\W\beauty\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
-        <dex dex="D:\W\beauty\android\app\build\intermediates\pre-dexed\debug\classes-4946e160785fff10b729ec8e9f9fcea80c0aff18.jar" />
-    </item>
-    <item
-        jar="C:\Users\ben\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
-        <dex dex="D:\W\beauty\android\app\build\intermediates\pre-dexed\debug\okhttp-3.4.1-2535fb27f6605bebcfe4772a5f3fa916bfb41f41.jar" />
-    </item>
-    <item
-        jar="C:\Users\ben\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.4.1\63994437f62bc861bc20c605d12962f7246116d1\okhttp-urlconnection-3.4.1.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="63994437f62bc861bc20c605d12962f7246116d1">
-        <dex dex="D:\W\beauty\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.4.1-e8caeb0cfa3333997e4c23596c8e6ad9103acecf.jar" />
-    </item>
-    <item
-        jar="D:\W\beauty\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
-        <dex dex="D:\W\beauty\android\app\build\intermediates\pre-dexed\debug\classes-17629cb41d86ca2b0b30278a14c9a3cf2483062e.jar" />
-    </item>
-    <item
-        jar="D:\W\beauty\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="D:\W\beauty\android\app\build\intermediates\pre-dexed\debug\classes-8cdc79d0c937516a00aadff1be9d8c83787a417a.jar" />
-    </item>
-    <item
         jar="C:\Users\ben\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-ws\3.4.1\8ace66ef7002d98f633377c9e67daeeb196d8c3b\okhttp-ws-3.4.1.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
-        <dex dex="D:\W\beauty\android\app\build\intermediates\pre-dexed\debug\okhttp-ws-3.4.1-68d733e2bee3ca69fb53a7d548032d32f046894f.jar" />
-    </item>
-    <item
-        jar="D:\W\beauty\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.43.4\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="28964a93b5eafbe660a5b51e5964d2e66aa45395">
-        <dex dex="D:\W\beauty\android\app\build\intermediates\pre-dexed\debug\classes-94411e0035d476ea11bc13f4204df1d72c254d4c.jar" />
-    </item>
-    <item
-        jar="D:\W\beauty\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="D:\W\beauty\android\app\build\intermediates\pre-dexed\debug\classes-ad2cac62010f53a1488a4e9659ddc567b16c7637.jar" />
-    </item>
-    <item
-        jar="D:\W\beauty\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.43.4\jars\libs\infer-annotations-1.5.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
-        <dex dex="D:\W\beauty\android\app\build\intermediates\pre-dexed\debug\infer-annotations-1.5-735e422febd9f264dd7bdf438e436e851a4520cd.jar" />
-    </item>
-    <item
-        jar="D:\W\beauty\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.0.1\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
-        <dex dex="D:\W\beauty\android\app\build\intermediates\pre-dexed\debug\classes-adec008a97642ea62cacddfe2c1fbe98ead5b521.jar" />
-    </item>
-    <item
-        jar="D:\W\beauty\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
-        <dex dex="D:\W\beauty\android\app\build\intermediates\pre-dexed\debug\classes-9c626f6d760d6a46f306fdf3dcb5959425c0b441.jar" />
-    </item>
-    <item
-        jar="D:\W\beauty\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="23.0.1"
-        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
-        <dex dex="D:\W\beauty\android\app\build\intermediates\pre-dexed\debug\classes-1d31b5ffe6109432211b843af13ee1be680cc1d2.jar" />
+        <dex dex="D:\w\beauty\android\app\build\intermediates\pre-dexed\debug\okhttp-ws-3.4.1-68d733e2bee3ca69fb53a7d548032d32f046894f.jar" />
     </item>
     <item
         jar="C:\Users\ben\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
         jumboMode="false"
         revision="23.0.1"
         sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
-        <dex dex="D:\W\beauty\android\app\build\intermediates\pre-dexed\debug\okio-1.9.0-26777f0201b37d2b5e30d1f36affdfac2caf77b7.jar" />
+        <dex dex="D:\w\beauty\android\app\build\intermediates\pre-dexed\debug\okio-1.9.0-26777f0201b37d2b5e30d1f36affdfac2caf77b7.jar" />
+    </item>
+    <item
+        jar="D:\w\beauty\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="050f688115ea65a0292d8483a6ffe6bcdab1e2ef">
+        <dex dex="D:\w\beauty\android\app\build\intermediates\pre-dexed\debug\classes-e321b91f6c2e095de926e89218d076dfbc52a9c9.jar" />
+    </item>
+    <item
+        jar="D:\w\beauty\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5a61f17cd72e20aa4323cbf5f909b7c609619275">
+        <dex dex="D:\w\beauty\android\app\build\intermediates\pre-dexed\debug\classes-d1f2f3ef07e0e03be7701c208c8dcfdb42875686.jar" />
+    </item>
+    <item
+        jar="C:\Users\ben\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="D:\w\beauty\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0-fe6ce25f79c2ed1157a57e2015e359abd6143e2d.jar" />
+    </item>
+    <item
+        jar="D:\w\beauty\android\app\build\intermediates\exploded-aar\org.webkit\android-jsc\r174650\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="12b885b3ed1fc74a51f671ad40867aa91271843d">
+        <dex dex="D:\w\beauty\android\app\build\intermediates\pre-dexed\debug\classes-f7dcee6803c5846eacc0fcb325da94c5371e8dee.jar" />
+    </item>
+    <item
+        jar="C:\Users\ben\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="D:\w\beauty\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0-9cf2bc20ab9136c284974a4e907b2e1e222e0c2d.jar" />
+    </item>
+    <item
+        jar="D:\w\beauty\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.43.4\jars\libs\infer-annotations-1.5.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dcac634e137395f79693ec760f081a86eb2bd84e">
+        <dex dex="D:\w\beauty\android\app\build\intermediates\pre-dexed\debug\infer-annotations-1.5-0d813189beeb1f88bf53976227c502b721df50b5.jar" />
+    </item>
+    <item
+        jar="D:\w\beauty\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="D:\w\beauty\android\app\build\intermediates\pre-dexed\debug\classes-9fb90d674d29d5a369c57e3a64ab773a7a8b2175.jar" />
+    </item>
+    <item
+        jar="C:\Users\ben\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="D:\w\beauty\android\app\build\intermediates\pre-dexed\debug\okhttp-3.4.1-2535fb27f6605bebcfe4772a5f3fa916bfb41f41.jar" />
+    </item>
+    <item
+        jar="D:\w\beauty\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.43.4\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="28964a93b5eafbe660a5b51e5964d2e66aa45395">
+        <dex dex="D:\w\beauty\android\app\build\intermediates\pre-dexed\debug\classes-fa4e9e77c534990f8c66404eba2f9837854a9bb2.jar" />
+    </item>
+    <item
+        jar="D:\w\beauty\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d9c4402c3057225d80cbbbec52154e7a25b0ebdf">
+        <dex dex="D:\w\beauty\android\app\build\intermediates\pre-dexed\debug\classes-bee53f8865f22a5b4be3a17b57e8fa2ad0caccc5.jar" />
+    </item>
+    <item
+        jar="D:\w\beauty\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="D:\w\beauty\android\app\build\intermediates\pre-dexed\debug\classes-ec17d5bfb96bb1dd9d6be87a35fca8020a67c703.jar" />
+    </item>
+    <item
+        jar="C:\Users\ben\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.4.1\63994437f62bc861bc20c605d12962f7246116d1\okhttp-urlconnection-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="63994437f62bc861bc20c605d12962f7246116d1">
+        <dex dex="D:\w\beauty\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.4.1-e8caeb0cfa3333997e4c23596c8e6ad9103acecf.jar" />
+    </item>
+    <item
+        jar="D:\w\beauty\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\libs\internal_impl-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
+        <dex dex="D:\w\beauty\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.4.0-77f083d470f8638420f4464c13076a6b1eec5a76.jar" />
+    </item>
+    <item
+        jar="C:\Users\ben\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="D:\w\beauty\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0-3b47b033358091e39213bec0ae3e38d8ae0c1c9c.jar" />
+    </item>
+    <item
+        jar="D:\w\beauty\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ec75036c3c52e451d0cde50a5aedaf5fd32354a0">
+        <dex dex="D:\w\beauty\android\app\build\intermediates\pre-dexed\debug\classes-ad2258ab6b9b387e0a2fa6dc33f44c4e7e2b820e.jar" />
+    </item>
+    <item
+        jar="D:\w\beauty\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2668e49e4e31c7d451b76a36009b902bf44e0d70">
+        <dex dex="D:\w\beauty\android\app\build\intermediates\pre-dexed\debug\classes-9fb4c5ce8703976978aa5bc5be589f3d68956fd0.jar" />
+    </item>
+    <item
+        jar="C:\Users\ben\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="D:\w\beauty\android\app\build\intermediates\pre-dexed\debug\javax.inject-1-6e13c3cf099c7291a915b5ff54b269f3e71af2a7.jar" />
+    </item>
+    <item
+        jar="C:\Users\ben\AppData\Local\Android\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.4.0\support-annotations-23.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
+        <dex dex="D:\w\beauty\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.4.0-3ad1a6630b898b372369369d79e9d3384427a3e5.jar" />
+    </item>
+    <item
+        jar="D:\w\beauty\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="cf836a435a496eb22ff2aa69aa1e619462549f81">
+        <dex dex="D:\w\beauty\android\app\build\intermediates\pre-dexed\debug\classes-870b262992e88a7bf370a03b69c53652064011fe.jar" />
+    </item>
+    <item
+        jar="D:\w\beauty\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
+        <dex dex="D:\w\beauty\android\app\build\intermediates\pre-dexed\debug\classes-97914aad687050e3145c6558091bf84b561da0cd.jar" />
+    </item>
+    <item
+        jar="D:\w\beauty\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ba9b39366b723ccff6359d1117332968e98a4aca">
+        <dex dex="D:\w\beauty\android\app\build\intermediates\pre-dexed\debug\classes-84356468180d8ba99c990699b490abf170a4f61e.jar" />
+    </item>
+    <item
+        jar="D:\w\beauty\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="D:\w\beauty\android\app\build\intermediates\pre-dexed\debug\classes-4d5b3fcb1be158d95a48af34678e45d9bc58ee4b.jar" />
     </item>
 
 </items>
